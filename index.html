@@ -1,73 +1,222 @@
-<!doctype html><html><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Project Isabel</title>
-<link rel="stylesheet" href="styles.css">
-<script defer src="script.js"></script>
-</head><body>
-<header class="nav">
-<div class="logo">PROJECT ISABEL</div>
-<nav>
-<a href="#home">Home</a>
-<a href="#mission">Mission</a>
-<a href="#platform">Platform</a>
-<a href="#journey">Journey</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project Isabel is an evidence-first sports intelligence platform for calibrated probabilities, market evaluation, uncertainty, and paper-tested signals.">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:title" content="Project Isabel — Intelligence Through Evidence">
+  <meta property="og:description" content="Adaptive quantitative sports intelligence built for defensible probabilities, transparent uncertainty, and disciplined decisions.">
+  <meta property="og:type" content="website">
+  <title>Project Isabel — Intelligence Through Evidence</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Project Isabel home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span><strong>ISABEL</strong><small>Sports Intelligence</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+        <span></span><span></span><span></span><span class="sr-only">Open menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" data-menu>
+        <a href="#platform">Platform</a>
+        <a href="#principles">Principles</a>
+        <a href="#workflow">How it works</a>
+        <a href="#roadmap">Roadmap</a>
+        <a class="nav-cta" href="#contact">Request early access</a>
+      </nav>
+    </div>
+  </header>
 
-<section id="home" class="hero">
-<div>
-<div class="badge">Building the Future of Sports Intelligence</div>
-<h1>Helping people understand the game with confidence.</h1>
-<p>Project Isabel is an AI startup focused on making sports analysis easier to understand. Instead of overwhelming users with data, the platform organizes information into transparent insights supported by continuous research and validation.</p>
-<a class="button" href="#mission">Our Story</a>
-</div>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Adaptive quantitative sports intelligence</div>
+          <h1>Find the signal.<br><em>Respect the uncertainty.</em></h1>
+          <p class="hero-lede">Project Isabel turns fragmented sports, market, and contextual data into calibrated probabilities, ranked signals, and explainable <strong>BET, WATCH, or REJECT</strong> decisions.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Join the research preview <span>↗</span></a>
+            <a class="button button-ghost" href="#platform">Explore the platform</a>
+          </div>
+          <div class="hero-proof" aria-label="Platform commitments">
+            <div><strong>Evidence-first</strong><span>No certainty theater</span></div>
+            <div><strong>Execution-free</strong><span>Signals and paper testing only</span></div>
+            <div><strong>Auditable</strong><span>Reproducible decisions</span></div>
+          </div>
+        </div>
 
-<div class="heroCard">
-<h3>Why Project Isabel?</h3>
-<p>Because sports decisions shouldn't depend on guesswork alone.</p>
-<div class="quote">"Understand the reasoning, not just the prediction."</div>
-</div>
-</section>
+        <div class="hero-product reveal" data-delay="1">
+          <div class="product-glow" aria-hidden="true"></div>
+          <div class="dashboard-frame">
+            <div class="dashboard-topbar">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>Signals / Today</span>
+              <div class="system-live"><i></i> Research engine active</div>
+            </div>
+            <div class="dashboard-body">
+              <aside class="dash-sidebar" aria-hidden="true">
+                <div class="mini-logo">I</div>
+                <i class="active"></i><i></i><i></i><i></i><i></i>
+              </aside>
+              <div class="dash-content">
+                <div class="dash-heading">
+                  <div><small>MONDAY · 03 AUG</small><h2>Ranked signals</h2></div>
+                  <div class="quality-pill">Quality gate: strict</div>
+                </div>
+                <div class="metric-row">
+                  <div><span>Fixtures scanned</span><strong>128</strong><small>14 leagues</small></div>
+                  <div><span>Qualified signals</span><strong>7</strong><small>5.5% acceptance</small></div>
+                  <div><span>Rejected</span><strong>121</strong><small>Discipline preserved</small></div>
+                </div>
+                <div class="signal-card featured">
+                  <div class="signal-rank">01</div>
+                  <div class="signal-main"><small>FOOTBALL · TOTAL GOALS</small><strong>Northbridge FC <b>vs</b> Athletic Union</strong><span>Over 1.5 goals</span></div>
+                  <div class="signal-stat"><small>MODEL</small><strong>76.8%</strong></div>
+                  <div class="signal-stat"><small>EDGE</small><strong>+6.4%</strong></div>
+                  <div class="decision decision-watch">WATCH</div>
+                </div>
+                <div class="signal-card">
+                  <div class="signal-rank">02</div>
+                  <div class="signal-main"><small>FOOTBALL · BOTH TEAMS TO SCORE</small><strong>Racing Borough <b>vs</b> City Eleven</strong><span>BTTS — Yes</span></div>
+                  <div class="signal-stat"><small>MODEL</small><strong>64.1%</strong></div>
+                  <div class="signal-stat"><small>EDGE</small><strong>+4.9%</strong></div>
+                  <div class="decision decision-review">REVIEW</div>
+                </div>
+                <div class="confidence-panel">
+                  <div class="confidence-title"><span>Confidence decomposition</span><strong>72 / 100</strong></div>
+                  <div class="bars"><label>Model agreement<i><b style="width:82%"></b></i></label><label>Data trust<i><b style="width:76%"></b></i></label><label>Market reliability<i><b style="width:69%"></b></i></label></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="mock-note">Illustrative research interface. Values shown are synthetic.</p>
+        </div>
+      </div>
+    </section>
 
-<section id="mission">
-<h2>Our Mission</h2>
-<p>We believe AI should help people understand complex information—not replace their judgment. Project Isabel is being built to organize sports data into insights that are easier to review, compare, and learn from.</p>
-</section>
+    <section class="trust-strip" aria-label="Core capabilities">
+      <div class="shell trust-grid">
+        <span>CALIBRATED PROBABILITIES</span><i></i><span>MARKET INTELLIGENCE</span><i></i><span>DATA TRUST</span><i></i><span>PAPER TESTING</span><i></i><span>CONTINUOUS VALIDATION</span>
+      </div>
+    </section>
 
-<section id="platform">
-<h2>The Platform</h2>
+    <section class="section platform" id="platform">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><span class="section-number">01</span><span class="eyebrow muted">The platform</span></div>
+          <h2>One intelligence layer.<br><em>Every defensible decision.</em></h2>
+          <p>Isabel evaluates the complete opportunity pool, not a single preselected market. It combines statistical baselines, machine learning, market context, and reliability gates before a signal can surface.</p>
+        </div>
+        <div class="capability-grid">
+          <article class="capability-card reveal"><span class="card-index">01</span><div class="icon-box icon-scan" aria-hidden="true"><i></i><i></i><i></i></div><h3>Market Scanner</h3><p>Continuously ranks fixtures and markets by model probability, fair price, available price, edge, uncertainty, and evidence quality.</p><a href="#workflow">See the decision flow <span>→</span></a></article>
+          <article class="capability-card reveal" data-delay="1"><span class="card-index">02</span><div class="icon-box icon-trust" aria-hidden="true"><i></i><i></i><i></i></div><h3>Trust Engine</h3><p>Scores data lineage, freshness, completeness, provider agreement, league health, and market reliability before evidence is trusted.</p><a href="#principles">Explore our standards <span>→</span></a></article>
+          <article class="capability-card reveal" data-delay="2"><span class="card-index">03</span><div class="icon-box icon-lab" aria-hidden="true"><i></i><i></i><i></i></div><h3>Research Lab</h3><p>Benchmarks challengers against baselines through walk-forward testing, calibration checks, drift monitoring, and strict promotion gates.</p><a href="#roadmap">View the roadmap <span>→</span></a></article>
+          <article class="capability-card reveal" data-delay="3"><span class="card-index">04</span><div class="icon-box icon-journal" aria-hidden="true"><i></i><i></i><i></i></div><h3>Prediction Journal</h3><p>Records every input, probability, decision, explanation, and outcome so performance can be reproduced and honestly reviewed.</p><a href="#contact">Request a preview <span>→</span></a></article>
+        </div>
+      </div>
+    </section>
 
-<div class="cards">
+    <section class="section principles" id="principles">
+      <div class="shell principles-layout">
+        <div class="principles-sticky reveal">
+          <span class="section-number">02</span><span class="eyebrow muted">Locked principles</span>
+          <h2>Discipline is a<br><em>product feature.</em></h2>
+          <p>Project Isabel is designed to say “no” more often than weak systems say “yes.” The architecture protects scientific integrity as the platform grows.</p>
+          <div class="principle-quote"><span>“</span><p>The objective is not to produce more predictions. It is to produce fewer, better-defended decisions.</p></div>
+        </div>
+        <div class="principle-list">
+          <article class="reveal"><span>01</span><div><h3>Probability over certainty</h3><p>Every output is a probability distribution with explicit uncertainty—not a promise or guaranteed result.</p></div></article>
+          <article class="reveal"><span>02</span><div><h3>No signal is a valid signal</h3><p>WATCH and REJECT are first-class decisions. Passing on weak evidence is a successful system outcome.</p></div></article>
+          <article class="reveal"><span>03</span><div><h3>The market is evidence</h3><p>Odds are treated as informative inputs and reference baselines, not an opponent to dismiss.</p></div></article>
+          <article class="reveal"><span>04</span><div><h3>Reproducible by design</h3><p>Predictions, features, models, data versions, and decisions are journaled for later reconstruction.</p></div></article>
+          <article class="reveal"><span>05</span><div><h3>Complexity must earn its place</h3><p>Every feature and model must demonstrate out-of-sample value before it can influence production signals.</p></div></article>
+          <article class="reveal"><span>06</span><div><h3>Measured, never assumed</h3><p>Calibration, closing-line performance, robustness, and paper-tested outcomes are continuously evaluated.</p></div></article>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h3>Sports Signals</h3>
-<p>Ranked opportunities presented with confidence, supporting context, and clear explanations.</p>
-</div>
+    <section class="section workflow" id="workflow">
+      <div class="shell">
+        <div class="section-heading centered reveal"><div><span class="section-number">03</span><span class="eyebrow muted">Decision architecture</span></div><h2>From raw evidence to<br><em>qualified signal.</em></h2><p>Every candidate moves through a transparent chain of evidence, modeling, challenge, and rejection gates.</p></div>
+        <div class="workflow-line" aria-hidden="true"></div>
+        <div class="workflow-grid">
+          <article class="reveal"><div class="step-dot">01</div><span>INGEST</span><h3>Unify the evidence</h3><p>Fixtures, teams, players, context, market prices, movement, weather, travel, and live events enter a versioned data layer.</p></article>
+          <article class="reveal" data-delay="1"><div class="step-dot">02</div><span>ESTIMATE</span><h3>Build probabilities</h3><p>Baselines and qualified models estimate outcomes across the complete supported market set.</p></article>
+          <article class="reveal" data-delay="2"><div class="step-dot">03</div><span>CHALLENGE</span><h3>Test the conviction</h3><p>Uncertainty, disagreement, data trust, reliability, correlation, and market information challenge each candidate.</p></article>
+          <article class="reveal" data-delay="3"><div class="step-dot">04</div><span>DECIDE</span><h3>Rank or reject</h3><p>Only candidates passing all gates become ranked signals. Everything else remains WATCH or REJECT.</p></article>
+        </div>
+        <div class="decision-spectrum reveal">
+          <div class="spectrum-label"><span>ISABEL DECISION LAYER</span><small>Thresholds are configurable, versioned, and audited.</small></div>
+          <div class="spectrum-cards">
+            <div class="spectrum-card reject"><span>REJECT</span><strong>Evidence is insufficient</strong><small>Low trust · unstable edge · excessive uncertainty</small></div>
+            <div class="spectrum-card watch"><span>WATCH</span><strong>Promising, not qualified</strong><small>Monitor price, lineup, data, or live state</small></div>
+            <div class="spectrum-card qualify"><span>QUALIFY</span><strong>Signal clears all gates</strong><small>Ranked and sent to paper testing</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h3>Continuous Research</h3>
-<p>Ideas are explored in a separate research environment before becoming part of the production platform.</p>
-</div>
+    <section class="section research">
+      <div class="shell research-layout">
+        <div class="research-visual reveal">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="core"><span>ISABEL</span><strong>OS</strong><small>EVIDENCE CORE</small></div>
+          <span class="node node-one">DATA TRUST</span><span class="node node-two">SIMULATION</span><span class="node node-three">MARKET MEMORY</span><span class="node node-four">MODEL DEBATE</span><span class="node node-five">LIVE ENGINE</span>
+        </div>
+        <div class="research-copy reveal" data-delay="1">
+          <span class="section-number">04</span><span class="eyebrow muted">Research operating system</span>
+          <h2>Built to learn.<br><em>Prevented from guessing.</em></h2>
+          <p>Isabel’s long-term architecture is an operating environment for sports research: market scanning, historical search, simulations, experiment management, live monitoring, model competition, and post-match learning.</p>
+          <ul><li><span>01</span>Champion–challenger model governance</li><li><span>02</span>Walk-forward and league-specific validation</li><li><span>03</span>Automated drift and data-quality monitoring</li><li><span>04</span>Human-readable confidence decomposition</li></ul>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h3>Transparent Validation</h3>
-<p>Performance is measured through historical evaluation and paper testing so improvements are backed by evidence.</p>
-</div>
+    <section class="section roadmap" id="roadmap">
+      <div class="shell">
+        <div class="section-heading reveal"><div><span class="section-number">05</span><span class="eyebrow muted">Build roadmap</span></div><h2>Foundation first.<br><em>Intelligence compounds.</em></h2><p>We are building Isabel in controlled stages. Advanced capabilities remain inactive until the supporting data, tests, and governance are ready.</p></div>
+        <div class="roadmap-grid">
+          <article class="active reveal"><div class="phase-top"><span>PHASE 01</span><b>IN DEVELOPMENT</b></div><h3>Evidence Foundation</h3><p>Canonical data contracts, prediction journal, baseline models, multi-market generation, rejection logic, and research dashboard.</p><ul><li>Reproducible baseline engine</li><li>Multi-market candidate ranking</li><li>Reports & Signals interface</li></ul></article>
+          <article class="reveal" data-delay="1"><div class="phase-top"><span>PHASE 02</span><b>NEXT</b></div><h3>Validation Layer</h3><p>Automated data providers, walk-forward experiments, calibration reporting, model registry, and league health scoring.</p><ul><li>Provider trust and lineage</li><li>Champion–challenger testing</li><li>Promotion gate automation</li></ul></article>
+          <article class="reveal" data-delay="2"><div class="phase-top"><span>PHASE 03</span><b>PLANNED</b></div><h3>Adaptive Intelligence</h3><p>Live evaluation, digital twins, causal analysis, simulation labs, feature discovery, and research agents.</p><ul><li>Live probability updates</li><li>Counterfactual simulations</li><li>Post-match learning loops</li></ul></article>
+        </div>
+      </div>
+    </section>
 
-</div>
-</section>
+    <section class="section safety">
+      <div class="shell safety-panel reveal">
+        <div><span class="safety-mark">!</span><div><span class="eyebrow muted">Product boundary</span><h2>Intelligence—not automatic execution.</h2></div></div>
+        <p>Project Isabel generates, ranks, explains, monitors, and paper-tests research signals. It does not place bets, manage bookmaker accounts, or promise profit. Final decisions remain human.</p>
+      </div>
+    </section>
 
-<section id="journey">
-<h2>The Journey Ahead</h2>
-<p>Project Isabel is still growing. Future releases will expand live monitoring, improve the web application, strengthen research workflows, and continue refining the user experience while keeping the platform transparent and approachable.</p>
-</section>
+    <section class="section contact" id="contact">
+      <div class="shell contact-panel reveal">
+        <div class="contact-copy"><span class="eyebrow">Research preview</span><h2>Help shape the future of<br><em>evidence-led sports intelligence.</em></h2><p>We are preparing early research access for technical collaborators, data partners, sports analysts, and responsible innovation programs.</p></div>
+        <form class="contact-form" data-form novalidate>
+          <label><span>Email address</span><input type="email" name="email" placeholder="you@company.com" autocomplete="email" required></label>
+          <label><span>I’m interested as a</span><select name="role" required><option value="">Choose a role</option><option>Research collaborator</option><option>Data or technology partner</option><option>Accelerator or cloud program</option><option>Early product tester</option><option>Other</option></select></label>
+          <button class="button button-primary" type="submit">Request early access <span>↗</span></button>
+          <p class="form-status" role="status" data-form-status>Foundation demo: submissions are stored only in this browser.</p>
+        </form>
+      </div>
+    </section>
+  </main>
 
-<section id="contact">
-<h2>Follow the Project</h2>
-<p>Development is ongoing. Follow Project Isabel on GitHub as the platform continues to evolve.</p>
-</section>
-
-<footer>© Project Isabel Startup Website v6</footer>
-
-</body></html>
+  <footer class="site-footer">
+    <div class="shell footer-top">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark"><i></i><i></i><i></i></span><span><strong>ISABEL</strong><small>Intelligence Through Evidence</small></span></a>
+      <div class="footer-links"><div><strong>Platform</strong><a href="#platform">Capabilities</a><a href="#workflow">Decision flow</a><a href="#roadmap">Roadmap</a></div><div><strong>Standards</strong><a href="#principles">Principles</a><a href="#contact">Research preview</a><a href="docs/PRIVACY.md">Privacy</a></div></div>
+    </div>
+    <div class="shell footer-bottom"><span>© 2026 Project Isabel. Research-stage platform.</span><span>Probabilities, not promises.</span></div>
+  </footer>
+</body>
+</html>

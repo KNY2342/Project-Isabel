@@ -1,0 +1,68 @@
+{
+  "release": "Project Isabel Startup Website 1.0 Foundation",
+  "audit_passes": [
+    {
+      "check": "Automated structural tests",
+      "status": "PASS",
+      "detail": "test_accessibility_basics (test_site.SiteTests.test_accessibility_basics) ... ok\ntest_assets_resolve (test_site.SiteTests.test_assets_resolve) ... ok\ntest_form_is_explicit_demo (test_site.SiteTests.test_form_is_explicit_demo) ... ok\ntest_internal_anchors_resolve (test_site.SiteTests.test_internal_anchors_resolve) ... ok\ntest_locked_decisions (test_site.SiteTests.test_locked_decisions) ... ok\ntest_product_boundary (test_site.SiteTests.test_product_boundary) ... ok\ntest_required_files (test_site.SiteTests.test_required_files) ... ok\ntest_responsive_css (test_site.SiteTests.test_responsive_css) ... ok\ntest_single_h1 (test_site.SiteTests.test_single_h1) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.004s\n\nOK"
+    },
+    {
+      "check": "No broken placeholder links",
+      "status": "PASS",
+      "detail": "All links target sections or real local documents."
+    },
+    {
+      "check": "No unsupported performance claims",
+      "status": "PASS",
+      "detail": "No guarantee or profitability claim found."
+    },
+    {
+      "check": "Synthetic dashboard disclosure",
+      "status": "PASS",
+      "detail": "Product mockup is clearly labeled illustrative."
+    },
+    {
+      "check": "Execution boundary",
+      "status": "PASS",
+      "detail": "Automatic execution is explicitly excluded."
+    },
+    {
+      "check": "Responsive implementation",
+      "status": "PASS",
+      "detail": "Mobile layout breakpoint present."
+    },
+    {
+      "check": "Accessibility implementation",
+      "status": "PASS",
+      "detail": "Reduced motion and keyboard skip navigation present."
+    },
+    {
+      "check": "Form privacy disclosure",
+      "status": "PASS",
+      "detail": "Demo storage behavior is disclosed."
+    },
+    {
+      "check": "SEO foundation",
+      "status": "PASS",
+      "detail": "Core metadata present."
+    },
+    {
+      "check": "Architecture coherence",
+      "status": "PASS",
+      "detail": "Public narrative matches frozen platform architecture."
+    }
+  ],
+  "all_passed": true,
+  "sha256_manifest": {
+    "app.js": "dba45feaf7941dfaf13d31d99dac6f5e1f53586584c1cff3fe2f8274eabd7835",
+    "styles.css": "78b6f8556439b5231b7b8e9966c4391662fe8c98173c1562759186f8ab7fdbd3",
+    "README.md": "1772459cee8c6ec7c29a123c8b5d4247baa4d7538abc309f36d9f822bd0661bd",
+    "index.html": "3751b34f1e7431e9bd2de139b3a5f6ac6d83e549c797b0a13231db69c0c170fd",
+    "tests/audit.py": "da97ebff3ef2823b8bb1cb2870fec7099e9b716261c1163662c64f9b3c5681d0",
+    "tests/test_site.py": "78e50bb938af07e70ded2c683f4c7aaa9bb70a671fd3013a297fa31e419ef373",
+    "docs/LOCKED_PRINCIPLES.md": "4687cc045c8004c518f5d2e61b7ea028649d0009957ad613c0f863c1196e822c",
+    "docs/PRIVACY.md": "17e3d359b61d50f860785071e00f2e80694e80db699e10e50ee612b3b8466427",
+    "assets/favicon.svg": "49661a8f8020be3ab1815df0d9835babdf8e59d7c2f744b1d459a6ea3d0aff1f",
+    "tests/__pycache__/test_site.cpython-313.pyc": "79699fd09a500f0068a8d97edbd5fe6769588c048140e117c658ddeddd1cbbfd"
+  }
+}
