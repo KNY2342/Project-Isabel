@@ -1,0 +1,16 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#08111f;color:#eef;font-family:Arial,sans-serif;line-height:1.7}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:#091625;position:sticky;top:0}
+.logo{font-weight:800}
+.nav a{text-decoration:none;color:#dce8ff;margin-left:18px}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;padding:90px 7%;background:radial-gradient(circle at top,#2b5fa7,transparent)}
+.badge{display:inline-block;background:#1b3f69;padding:8px 14px;border-radius:22px}
+h1{font-size:60px;line-height:1.05}
+h2{font-size:38px}
+.button{display:inline-block;margin-top:20px;padding:14px 22px;background:#4e8cff;color:#fff;text-decoration:none;border-radius:10px}
+.heroCard,.card{background:#13253d;border:1px solid #2d5078;border-radius:18px;padding:22px}
+.quote{margin-top:18px;font-style:italic;color:#b9d4ff}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+section{padding:72px 7%}
+footer{text-align:center;padding:36px;color:#9ab}
+@media(max-width:900px){.hero{grid-template-columns:1fr}h1{font-size:44px}}
