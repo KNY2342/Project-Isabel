@@ -1,1 +1,0 @@
-console.log('Project Isabel Startup Website v6');
